@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team Members</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .header {
+    background-color: #ff85a2;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+  }
+  .list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding: 10px 15px;
+  }
+  .list-item:last-child {
+    border-bottom: none;
+  }
+  .status {
+    color: green;
+    font-weight: bold;
+  }
+  .edit {
+    color: #ff85a2;
+    cursor: pointer;
+  }
+  .edit:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h2>Team Members</h2>
+  </div>
+  <!-- Repeat this section for each team member -->
+  <div class="list-item">
+    <div>Name: Mira Rodeo</div>
+    <div>Designation: Software Developer</div>
+    <div class="status">Status: Active</div>
+    <div>Role: Developer</div>
+    <div class="edit">Edit</div>
+  </div>
+  <!-- End of team member section -->
+</div>
+</body>
+</html>
